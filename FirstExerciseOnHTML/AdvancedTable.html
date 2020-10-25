@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Table</title>
+</head>
+<body>
+<table border="8" cellpadding="15">
+    <thead>
+    <tr>
+        <th style="width: 20%">Column 1</th>
+        <th style="width: 20%">Column 2</th>
+        <th style="width: 20%">Column 3</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">Row 1 Cell 1</td>
+        <td rolspan="2">Row 1 Cell 2</td>
+        <td rolspan="2">Row 1 Cell 3</td>
+    </tr>
+    <tr>
+        <td rolspan="2">Row 2 Cell 2</td>
+        <td colspan="2">Row 2 Cell 3</td>
+    </tr>
+    <tr>
+        <td colspan="2"><p>This is paragraph <br> <br> This is another paragraph</p></td>
+        <td>
+            <p>This cell contains a table:</p>
+            <table border="3" cellpadding="7">
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <p>This cell contains a list</p>
+            <ul>
+                <li>apples</li>
+                <li>bananas</li>
+                <li>pineapples</li>
+            </ul>
+        </td>
+        <td>HELLO</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
