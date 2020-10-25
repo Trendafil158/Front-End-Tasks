@@ -1,0 +1,26 @@
+<!DOCTYPE tvshedule[
+        <!ELEMENT tvGuide (movie+, datetime+)>
+        <!ATTLIST tvGuide channel CDATA #IMPLIED>
+        <!ELEMENT movie (title, studio, producer?, moviestars)>
+        <!ATTLIST movie
+                in_color (Black | Colored) #REQUIRED
+                length CDATA #IMPLIED
+                year CDATA #IMPLIED>
+        <!ELEMENT studio (name, address)>
+        <!ELEMENT producer (name, birthdate, education)>
+        <!ELEMENT moviestars (name, birthdate)>
+        <!ELEMENT datetime (year, month, day, hour, minute)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT address (city, street, number_of_street)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT birthdate (#PCDATA)>
+        <!ELEMENT education (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT month (#PCDATA)>
+        <!ELEMENT day (#PCDATA)>
+        <!ELEMENT hour (#PCDATA)>
+        <!ELEMENT minute (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT street (#PCDATA)>
+        <!ELEMENT number_of_street (#PCDATA)>
+        ]>
