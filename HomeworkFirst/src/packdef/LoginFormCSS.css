@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+    max-width: 79rem;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.mainContainer {
+    margin: 0;
+}
+
+.main-content {
+    background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+    margin-top: 40px;
+    margin-left: 4%;
+    width: 110%;
+    padding: 42px 16px 125px 8px;
+}
+
+.content {
+    display: block;
+    border-radius: 7px;
+    align-items: center;
+    background: white;
+    margin-left: 35%;
+    margin-top: 90px;
+    padding: 2.5rem;
+    max-width: 20rem;
+    width: 100%;
+}
+
+.Email {
+    height: 26px;
+    width: 100%;
+    background: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: start;
+}
+
+.Email:hover {
+    border-bottom-color: blue;
+}
+
+.Password {
+    height: 26px;
+    width: 100%;
+    background: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: start;
+}
+
+.Password:hover {
+    border-bottom-color: blue;
+}
+
+.Login {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.header {
+    font-size: 25px;
+}
+
+.justLabel {
+    color: grey;
+}
+
+.Login {
+    font-size: 17px;
+}
+
+.submitButton {
+    height: 33px;
+    width: 38%;
+    margin-left: 64%;
+    background: cornflowerblue;
+    border-radius: 25px;
+    border: none;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+
+.secondButton {
+    height: 33px;
+    margin-left: 67%;
+    border: none;
+    background: white;
+    text-align: center;
+    color: blue;
+}

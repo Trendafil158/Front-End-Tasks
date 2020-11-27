@@ -1,0 +1,192 @@
+.mainContainer {
+    margin: 0;
+}
+
+.beginDiv {
+    display: flex;
+    margin-left: 3%;
+}
+
+.searchField {
+    height: 25px;
+    width: 15%;
+    background: #fafafa;
+    border: 1px solid #b9b9b9;
+    border-radius: 20px;
+    text-align: start;
+    margin-top: 25px;
+    margin-left: 69%;
+}
+
+.flutter {
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.main-content {
+    background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+    margin-top: 3px;
+    margin-left: 3%;
+    width: 93%;
+    padding: 8px 0 175px 8px;
+}
+
+.first-content {
+    display: block;
+    align-items: center;
+    background: white;
+    margin-left: 9%;
+    max-width: 18rem;
+    height: 195px;
+}
+
+.img-Ivan {
+    display: block;
+    margin-left: 30%;
+}
+
+.footerPostsReactions {
+    margin-top: 38px;
+    height: 50px;
+    display: flex;
+    width: 288px;
+    align-items: center;
+    background: #f2f9fc;
+}
+
+.lblPosts {
+    margin-left: 12px;
+    align-items: center;
+}
+
+.lblReact {
+    margin-left: 17px;
+    align-items: center;
+}
+
+.lblPostlbl, .lblReactlbl {
+    color: grey;
+}
+
+.lblPostlbllbl, .lblReactlbllbl {
+    color: dodgerblue;
+    font-size: 18px;
+}
+
+.img-picture {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 5.25rem;
+    height: 5.25rem;
+    margin-left: 10px;
+    margin-top: 29px;
+}
+
+.buttonLogOut {
+    border-radius: 25px;
+    width: 75px;
+    text-align: center;
+    color: dodgerblue;
+    box-sizing: border-box;
+    border-color: dodgerblue;
+    margin-left: 70px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    height: 34px;
+}
+
+.second-content {
+    display: block;
+    align-items: center;
+    background: white;
+    margin-left: 30%;
+    margin-top: -195px;
+    max-width: 55rem;
+    height: 450px;
+}
+
+.firstSearchPic {
+    background: #f2f9fc;
+    height: 53px;
+    display: flex;
+}
+
+.img-second-picture {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.searchFieldSecond {
+    height: 25px;
+    width: 87%;
+    background: white;
+    border: 1px solid #b9b9b9;
+    border-radius: 20px;
+    text-align: start;
+    color: dodgerblue;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.sub-first,.sub-second {
+    border-top: 1px solid #ced4d6;
+    padding: 0 0 15px 0;
+}
+
+.partOneOfSecond, .partTwoOfSecond {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+.imf-third-picture, .img-forth-picture {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 7px;
+}
+
+.lblpartOnelbl, .lblpartTwolbl {
+    margin-left: 14px;
+}
+
+.sp-fir, .spr-sec {
+    margin-left: 12px;
+    color: grey;
+}
+
+.paragraph, .paragraphSecond {
+    margin-left: 75px;
+    margin-top: -25px;
+}
+
+.likeDislikeButton, .likeDislikeButtonSecond {
+    display: flex;
+}
+
+.likeButt, .dislikeButt, .likeButtSecond, .dislikeButtSecond {
+    display: flex;
+}
+
+.img-like, .img-like-sec {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-left: 74px;
+}
+
+.img-dislike, .img-dislike-sec {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-left: 45px;
+}
+
+.lblFive, .lblThree, .lblFiveSecond, .lblThreeSecond {
+    margin-left: 8px;
+    margin-top: 5px;
+}
