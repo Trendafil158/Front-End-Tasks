@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Contact.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+
+<body>
+<div id="page-container">
+    <header>
+        <div class="container">
+            <nav class="navNav">
+                <ul>
+                    <li><a href="website.html">Начало</a></li>
+                    <li><a href="Contact.html">Контакти</a></li>
+                    <li><a href="Movies.html">Към филмите</a></li>
+                    <li><a href="Login.html">Вход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="content">
+        <section class="contact">
+            <div class="contact__text">
+                <div class="container-contact">
+                    <header2>
+
+                    </header2>
+                    <ul class="contact__text__list">
+                        <li class="contact__text__list_item">
+                            <span class="contact__text__list__title">Адрес: </span>
+                            <span>бул. "Цар Освободител" 24, гр. Пловдив</span>
+                        </li>
+                        <li class="contact__text__list_item">
+                            <span class="contact__text__list__title">Телефон за връзка: </span>
+                            <a href="tel: 088843724">088843724</a>
+                        </li>
+                        <li class="contact__text__list_item">
+                            <span class="contact__text__list__title">Email: </span>
+                            <a href="mail: xcars@gmail.com">videolibarySofia@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form method="POST">
+                    <fieldset>
+                        <ul class="form-grid">
+                            <li>
+                                <label for="first-name">Име: </label>
+                                <input type="text" id="first-name" name="first-name" required/>
+                            </li>
+                            <li>
+                                <label for="email">Имейл: </label>
+                                <input type="email" id="email" name="email" required/>
+                            </li>
+                            <li>
+                                <label for="message">Съобщение: </label>
+                                <textarea id="message" name="message"></textarea>
+                            </li>
+                            <li>
+                                <button type="submit" class="btn">Изпрати</button>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div id="footer">
+            <p>&copy; 2020 Video Library "Light". All rights reserved.</p>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+
+</html>

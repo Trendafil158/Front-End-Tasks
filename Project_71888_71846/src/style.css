@@ -1,0 +1,108 @@
+header
+{
+    background-image: linear-gradient(rgba(0,2,10,50), rgba(400, 600, 800, 0.699)), url(./images/main.jpg);
+    height: 150vh;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -24rem;
+}
+
+.main
+{
+    max-width: 1280px;
+    margin:auto;
+    position:fixed;
+}
+
+
+.title
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.title h1
+{
+    font-style:oblique;
+    font-size: 6.1vw;
+    left: 50%;
+    top: 50%;
+    /*color:rgba(59, 4, 73, 0.897);*/
+    color: brown;
+    transform: translate(-50%, -50%);
+    position:fixed;
+}
+
+.title h2
+{
+    position: absolute;
+    font-size: 1.7vw;
+    font-weight: normal;
+    left: 50%;
+    top: 65%;
+    /*color:rgb(59, 4, 73);*/
+    color: brown;
+    transform: translate(-50%, -50%);
+    position:fixed;
+}
+
+.button
+{
+    /*position: absolute;*/
+    left: 50%;
+    top: 79%;
+    transform: translate(-50%, -50%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /*position:fixed;*/
+}
+
+.btn:hover
+{
+    background-color: rgba(49, 5, 61, 0.788);
+    color: rgba(235, 235, 235, 0.808);
+}
+
+.buttons
+{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    position:fixed;
+}
+
+.btns
+{
+    border-radius: 11px;
+    padding: 4px 14px;
+    color:rgb(255, 255, 255);
+    /*font:  sans-serif;*/
+    font-size: 1.7vw;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btns:hover
+{
+    background-color: rgba(85, 300, 200, 0.589);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .title h2{
+        font-size: 20px;
+    }
+
+    .btns{
+        font-size: 15px;
+        padding-left: 10px ;
+    }
+}

@@ -1,0 +1,150 @@
+.container{
+    width: 80%;
+    height: 100px;
+    margin:auto;
+    overflow: hidden;
+}
+
+body
+{
+    font-size: 15px;
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    font-family:sans-serif;
+    box-sizing:border-box;
+}
+
+header{
+    background: linear-gradient(rgba(1,12,10,1), #474a59);
+    padding-top: 15px;
+    margin: auto;
+    overflow: hidden;
+    border-bottom: #DC143C solid 1px;
+}
+
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header ul{
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+header ul li{
+    float: left;
+    margin: 17px;
+}
+
+#content{
+    padding-bottom: 2.5rem;
+}
+
+div#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+
+.contact__text{
+    width: 50%;
+    margin:auto auto 50px auto;
+
+}
+
+.container-contact{
+    text-align: center;
+}
+
+/* Form grid */
+.form-grid{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form-grid li{
+    display: block;
+    padding: 10px 0;
+    margin-right: 30px;
+}
+.form-grid li label{
+    display: block;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+}
+.form-grid li input,
+.form-grid li select,
+.form-grid li textarea{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-grid li textarea{
+    min-height: 60px;
+    max-height: 90px;
+    padding: 10px;
+}
+
+.form-grid .btn{
+    font-size: 16px;
+    border-color: #ccc;
+    margin-top: 50px;
+}
+
+.contact__text__list_item{
+    text-align: left;
+    margin-bottom: 3px;
+}
+.contact__text__list{
+    margin-top: 35px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 40px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    color: #000;
+    font: 300 18px/1.2 'Raleway', sans-serif;
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+}
+
+@media screen and (max-width: 481px) {
+    header ul {
+        margin-left: 80%;
+        margin-top: 10px;
+    }
+}
