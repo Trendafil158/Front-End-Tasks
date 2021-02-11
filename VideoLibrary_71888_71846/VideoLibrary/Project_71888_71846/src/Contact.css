@@ -1,0 +1,118 @@
+.container{
+    width: 80%;
+    height: 100px;
+    margin-left: 8%;
+}
+
+body
+{
+    font-size: 15px;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+header{
+    background: linear-gradient(rgba(1,12,10,1), #474a59);
+    padding-top: 15px;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header ul{
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+header ul li{
+    float: left;
+    margin: 17px;
+}
+
+header ul li:hover{
+    background-color: rgba(85, 300, 200, 0.589);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.contact__text{
+    width: 50%;
+    margin:auto auto 50px auto;
+
+}
+
+.form-grid li{
+    display: block;
+    padding: 10px 0;
+    margin-right: 30px;
+}
+
+.form-grid li label{
+    display: block;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+}
+
+.form-grid li input,
+.form-grid li select,
+.form-grid li textarea{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-grid li textarea{
+    min-height: 60px;
+    max-height: 90px;
+    padding: 10px;
+}
+
+.form-grid .btn{
+    font-size: 16px;
+    border-color: #ccc;
+    margin-top: 50px;
+}
+
+.contact__text__list_item{
+    margin-bottom: 4px;
+}
+
+.contact__text__list{
+    margin-top: 35px;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 12px 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: #000;
+    font: 300 18px/1.2 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 481px) {
+    header ul {
+        margin-left: 80%;
+        margin-top: 10px;
+    }
+}

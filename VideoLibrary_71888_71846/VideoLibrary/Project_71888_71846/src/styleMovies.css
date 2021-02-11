@@ -1,0 +1,144 @@
+
+body
+{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.384)),  url(images/white_parallax_brick_full.jpg);
+    height:150vh;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+.buttons
+{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: dimgrey;
+    padding:1.5vh;
+    width: 100%;
+}
+
+.btns
+{
+    font-size: 20px;
+    margin-left:320px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.btns:hover
+{
+    background-color: rgba(255, 255, 255, 0.692);
+    color: dimgrey;
+    border: dimgrey;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+h1
+{
+    padding: 2px 50px;
+    position: absolute;
+    left:50%;
+    top:20%;
+    color: dimgrey;
+    font-size: 6vh;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+
+
+}
+
+img{
+    position: absolute;
+    max-width: 40vh;
+    width:50%;
+    height:60%;
+    border-radius: 10px;
+}
+
+#shawshank
+{
+    top:130vh;
+    left:40vw;
+    margin-top: 240px;
+    padding-bottom:20px;
+}
+
+#theGodFather
+{
+    top:130vh;
+    left:20vw;
+    margin-top: 240px;
+    padding-bottom:20px;
+}
+
+#blackKnight
+{
+    top:85vh;
+    left:60vw;
+    margin-top:120px;
+}
+
+#forestGump
+{
+    top:85vh;
+    left:40vw;
+    margin-top:120px;
+}
+
+#greenMile
+{
+    top:85vh;
+    left:20vw;
+    margin-top:120px;
+}
+
+#seven
+{
+    top:40vh;
+    left:60vw;
+}
+
+#theSilenceOfTheLambs
+{
+    top:40vh;
+    left:40vw;
+}
+
+#genezis
+{
+    top:40vh;
+    left:20vw;
+}
+#interstellar
+{
+    top:130vh;
+    left:60vw;
+    margin-top: 240px;
+    padding-bottom:20px;
+}
+
+
+
+@media only screen and (max-width:800px)
+{
+    img{
+        position: absolute;
+        max-width: 15vh;
+        width:45%;
+        height:40%;
+        border-radius: 10px;
+    }
+
+    .btns
+    {
+        font-size: 20px;
+        margin-left: 70px;
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+    }
+}
